@@ -54,46 +54,6 @@ Orders Count
 
 Profit Margin
 
-📈 Dashboard Features
-1️⃣ Sales Overview
-
-Total Sales
-
-Total Profit
-
-Total Orders
-
-Profit Margin
-
-2️⃣ Time Series Analysis
-
-Sales by Month
-
-Profit by Month
-
-Seasonal trends
-
-3️⃣ Product Insights
-
-Top 10 best-selling products
-
-Category performance
-
-Profitability by product
-
-4️⃣ Geographical Analysis
-
-Sales distribution by state
-
-Region-wise performance
-
-5️⃣ Order & Shipping Insights
-
-Delivery time analysis
-
-Order status breakdown
-
-Fulfillment trends
 
 🛠 Tools & Technologies
 
