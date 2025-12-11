@@ -1,100 +1,72 @@
-📊 Amazon Sales Data Analysis 
+📊 Amazon Sales Analytics – Power BI Dashboard
+📂 Full Dataset
 
-📁 Project Overview
+The complete cleaned dataset used for this analysis is included in the Power BI file:
 
-This project analyzes Amazon Sales Data using Power BI to uncover key business insights such as revenue trends, product performance, regional distribution of sales, and order fulfillment patterns.
-The dataset used includes 10,000+ sales records, containing information about products, prices, orders, shipping details, and customer segments.
+👉 Download Full Dataset (Embedded in PBIX)
 
-The goal of this project is to build a clear, interactive dashboard that helps stakeholders:
+A smaller sample CSV (amazon_sales_dataset_10000.csv) is provided in this repository for quick testing and reference.
 
-Monitor sales performance
+📘 Project Overview
 
-Identify top-selling products and categories
+This project analyzes Amazon Sales Data to identify trends in revenue, products, customers, and order fulfillment.
+The workflow includes data cleaning, data modeling, and interactive dashboard creation using Power BI.
 
-Track order and shipping trends
+The analysis focuses on:
 
-Understand customer buying behavior
+Sales and profit performance
 
-📂 Files Included
-File Name	Description
-Amazon Sales Data.pbix	Power BI dashboard containing data cleaning, modeling, and visualizations
-amazon_sales_dataset_10000.csv	Raw dataset used for analysis
-🧽 Data Cleaning & Preprocessing
+Best-performing categories and products
 
-Performed inside Power BI Power Query:
+Customer order behavior
 
-Removed null or inconsistent records
+Shipping and delivery trends across regions
 
-Standardized date formats
+📈 Key Visualizations
 
-Cleaned categorical fields (state names, product names, shipping status, etc.)
+The Power BI dashboard includes:
 
-Converted data types (dates, currency, integer fields)
+Sales & Profit Overview
 
-Added calculated columns such as:
+Sales by Product Category
 
-Total Sales = Unit Price × Quantity
+Top 10 Best-Selling Products
 
-Profit
+Monthly Revenue Trend
 
-Delivery Time (Days between Order Date and Shipment Date)
+Order Status Breakdown (Delivered, Cancelled, etc.)
 
-🏗️ Data Model
+Sales by State / Region Map
 
-The data model is a single-table design from the provided CSV.
-Additional measures were created using DAX:
+Average Delivery Time Analysis
 
-Total Sales
+All visuals are included inside the .pbix file.
 
-Total Profit
+🧠 Key Insights
 
-Average Delivery Days
+Based on the exploratory analysis:
 
-Orders Count
+Certain categories consistently generate higher revenue and profit.
 
-Profit Margin
+Some states show significantly stronger demand patterns.
 
+Most cancellations occur in specific product types.
 
-🛠 Tools & Technologies
+Delivery delays strongly correlate with lower customer satisfaction.
+
+Seasonal peaks appear during festival and year-end periods.
+
+🛠️ Tools Used
 
 Power BI Desktop
 
-Power Query
+Power Query (Data Cleaning)
 
-DAX (Data Analysis Expressions)
+DAX (Measures & Calculated Columns)
 
-CSV dataset
+CSV Dataset
+                        
 
-📊 Key Insights (Example)
+📈 Project by
 
-These insights may vary depending on your dashboard:
-
-Certain product categories contribute to the highest revenue.
-
-Some states show stronger sales demand patterns.
-
-Delivery delays impact customer satisfaction and overall sales.
-
-Seasonal peaks show increased orders during specific months.
-
-🚀 How to Use This Project
-
-Download the .pbix file
-
-Open it using Power BI Desktop
-
-Explore the pre-built dashboard
-
-Connect your own dataset (optional)
-
-Modify visuals as required
-
-🔮 Future Improvements
-
-Add forecasting using Power BI Analytics
-
-Build separate dimension tables for a star schema model
-
-Create R/Python visuals inside Power BI
-
-Add real-time dashboards using DirectQuery
+Harini Suresh
