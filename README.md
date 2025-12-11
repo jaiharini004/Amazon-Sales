@@ -4,9 +4,9 @@
 
 The complete cleaned dataset used for this analysis is included in the Power BI file:
 
-👉 Download Full Dataset (Embedded in PBIX)
+👉 [Download Full Dataset](https://drive.google.com/file/d/1MGvKTUkbHw5Ju3wo9_vktlZjPyuRlsRK/view)
 
-A smaller sample CSV (amazon_sales_dataset_10000.csv) is provided in this repository for quick testing and reference.
+A smaller sample CSV is provided in this repository for quick testing and reference.
 
 📘 Project Overview
 
@@ -69,5 +69,4 @@ CSV Dataset
                         
 
 📈 Project by
-
-Harini Suresh
+[JAI HARINI K S](https://github.com/jaiharini004)
